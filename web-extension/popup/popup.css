@@ -1,0 +1,22 @@
+#popup-container {
+    font-family: Arial, sans-serif;
+    padding: 16px;
+    width: 300px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+#heading-content {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 1em;
+    color: #555;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
