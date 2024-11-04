@@ -20,10 +20,11 @@ make clean
 ```
 
 ## Pour installer l'extension web **React Chrome Extension**
+> Il est nécessaire de build l'extension avant de chercher à l'installer.
 ### Brave / Google Chrome
 1. Ouvrir **Brave** ou **Google Chrome**
-    1. Pour **Brave**, se rendre sur [Extensions](brave://extensions)
-    2. Pour **Google Chrome**, se rendre sur [Extensions](chrome://extensions)
+    1. Pour **Brave**, se rendre sur [Extensions](brave://extensions) (`brave://extensions`)
+    2. Pour **Google Chrome**, se rendre sur [Extensions](chrome://extensions) (`chrome://extensions`)
 2. Si besoin, activer le `Mode développeur`
 3. Cliquer sur `Charger l'extension non empaquetée`
 4. Sélectionner le dossier `web-extension`
@@ -32,7 +33,7 @@ make clean
 
 ### Firefox
 1. Ouvrir **Firefox**
-2. Se rendre sur [Extensions](about:debugging#/runtime/this-firefox)
+2. Se rendre sur [Extensions](about:debugging#/runtime/this-firefox) (`about:debugging#/runtime/this-firefox`)
 3. Cliquer sur `Charger un module complémentaire temporaire…`
 4. Sélectionner le fichier `web-extension/manifest.json`
 5. L'extension doit désormais être installée, ne pas hésiter à l'épingler pour gagner du temps
